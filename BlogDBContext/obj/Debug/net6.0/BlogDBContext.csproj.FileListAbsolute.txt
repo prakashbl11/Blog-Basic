@@ -1,0 +1,17 @@
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\bin\Debug\net6.0\BlogDBContext.deps.json
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\bin\Debug\net6.0\BlogDBContext.runtimeconfig.json
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\bin\Debug\net6.0\BlogDBContext.dll
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\bin\Debug\net6.0\BlogDBContext.pdb
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\bin\Debug\net6.0\BlogPostModel.dll
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\bin\Debug\net6.0\BlogPostModel.pdb
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\BlogDBContext.csproj.AssemblyReference.cache
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\BlogDBContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\BlogDBContext.AssemblyInfoInputs.cache
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\BlogDBContext.AssemblyInfo.cs
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\BlogDBContext.csproj.CoreCompileInputs.cache
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\BlogDBContext.csproj.CopyComplete
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\BlogDBContext.dll
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\refint\BlogDBContext.dll
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\BlogDBContext.pdb
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\BlogDBContext.genruntimeconfig.cache
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogDBContext\obj\Debug\net6.0\ref\BlogDBContext.dll

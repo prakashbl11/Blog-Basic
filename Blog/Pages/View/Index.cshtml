@@ -1,0 +1,58 @@
+﻿@page "/View/Index"
+@model Blog.Pages.View.IndexModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+@inject UserManager<IdentityUser> userManager
+
+@{
+    ViewData["Title"] = "HomePage";
+}
+<!--Author:Prakash Bl Dhakal Date:2023/21/03-->
+<div class="container mt-4 p-3">
+    <!--Only SignedIn User Can Create a blog-->
+    @if (signInManager.IsSignedIn(User))
+    {
+        <a class="btn btn-outline-success" href="/View/Post">Add Blog</a>
+    }
+    <!--This logic display all blogs and list if we have the blogs otherwise displays Message-->
+    @if (Model.AllPosts != null && Model.AllPosts.Any())
+    {
+        <div class="blog-posts">
+            @foreach (var post in Model.AllPosts)
+            {
+                <div class="blog-post mt-2">
+                    <h3 class="post-title">@post.Title</h3>
+                    <p class="post-content">@post.Content</p>
+                    <div class="post-author">Author: @post.Author</div>
+                    <!--Every post has managepost section through which we can Modify post or delete the post.
+                        if you have the role admin/Hr this button enable otherwise disabled.
+                    -->
+                    @if (signInManager.IsSignedIn(User))
+                    {
+                        var user = await userManager.GetUserAsync(User);
+                        var role = await userManager.GetRolesAsync(user);
+                        @if (role.Contains("Admin") || role.Contains("HR"))
+                        {
+                            <div class="post-actions p-2">
+                                <a class="btn btn-outline-primary border-success"
+                                   href="/View/ManagePost/@post.Id">Manage Post</a>
+                            </div>
+                        }
+                    }
+                    <!--Comment section is just for look and feel.logic behind this is not implemented for now-->
+                    <div class="comment-box p-2">
+                        <textarea class="form-control" rows="2" placeholder="Write a comment"></textarea>
+                        <button type="button" class="btn border-secondary  my-1 p-2">Post Comment</button>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div clsss="container">
+            <p class="text-danger">No Blogs are there,You can Add Blogs by Add blogs Button.</p>
+        </div>
+    }
+</div>
+

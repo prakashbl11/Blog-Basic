@@ -1,0 +1,59 @@
+﻿@page "{id:Guid}"
+@model Blog.Pages.View.ManagePostModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+@inject UserManager<IdentityUser> userManager
+
+@{
+    ViewData["Title"] = "BlogPost";
+}
+<!--Author:Prakash Bl Dhakal Date:2023/21/03-->
+<div class="container">
+    <form method="post">
+        <div class="col-md-4">
+            <input type="text" asp-for="Blogposts.Id" hidden />
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" asp-for="Blogposts.Title" />
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col-md-8">
+                <label for="content">Content</label>
+                <textarea class="form-control" id="content" asp-for="Blogposts.Content" rows="6"></textarea>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <label for="author">Author</label>
+                <input type="text" class="form-control" asp-for="Blogposts.Author" id="author" />
+            </div>
+        </div>
+        <div class=" my-5">
+            <!--Role Based access for Modify the post and delete the blogs,
+            if you are admin and HR you can edit the post.to delete the post your role should be admin -->
+            @if (signInManager.IsSignedIn(User))
+            {
+                var user = await userManager.GetUserAsync(User);
+                var role = await userManager.GetRolesAsync(user);
+                @if (role.Contains("Admin") || role.Contains("HR"))
+                {
+                    <button type="submit" class="btn btn-outline-success">Modify</button>
+                }
+                @if (role.Contains("Admin"))
+                {
+                    <button type="submit" class="btn btn-outline-danger"
+                            onclick="return confirm('Are you sure want to delete?');" asp-page-handler="Delete">
+                        Delete
+                    </button>
+                }
+            }
+            <a class="btn btn-outline-warning" href="/View/Index">
+                <i class="bi bi-cross"></i>Cancel
+            </a>
+        </div>
+    </form>
+</div>
+

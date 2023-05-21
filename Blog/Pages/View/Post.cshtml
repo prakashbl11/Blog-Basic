@@ -1,0 +1,42 @@
+﻿@page "/View/Post"
+@model Blog.Pages.View.PostModel
+
+@{
+    ViewData["Title"] = "BlogPost";
+}
+<!--Author:Prakash Bl Dhakal Date:2023/21/03-->
+<div class="container">
+    <form method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" placeholder="Title" id="title" asp-for="BlogPostDTO.Title" />
+                <span asp-validation-for="BlogPostDTO.Title" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col-md-6">
+                <label for="content">Content</label>
+                <textarea class="form-control" placeholder="Create a Post" id="content" asp-for="BlogPostDTO.Content" rows="6"></textarea>
+                <span asp-validation-for="BlogPostDTO.Content" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <label for="author">Author</label>
+                <input type="text" class="form-control" placeholder="Name of Author" asp-for="BlogPostDTO.Author" id="author" />
+                <span asp-validation-for="BlogPostDTO.Author" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="text-danger my-5">
+            <button type="submit" class="btn btn-outline-success">Post Blog</button>
+            <a class="btn btn-outline-danger" href="/">
+                Discard
+            </a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

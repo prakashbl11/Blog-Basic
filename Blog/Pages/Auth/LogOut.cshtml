@@ -1,0 +1,14 @@
+﻿@page "/Logout"
+@model Blog.Pages.Auth.LogOutModel
+@{
+}
+<!--Author:Prakash Bl Dhakal Date:2023/21/03-->
+<div class="container">
+    <form method="post">
+        <div class="row">
+            <p>Are You Sure Want To LogOut?</p>
+        </div>
+        <button type="submit" class="btn btn-outline-danger" asp-page-handler="Logout">Sure</button>
+        <button type="submit" class="btn btn-outline-primary" asp-page-handler="Cancel">Cancel</button>
+    </form>
+</div>

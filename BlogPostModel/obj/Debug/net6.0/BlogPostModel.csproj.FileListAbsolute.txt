@@ -1,0 +1,12 @@
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\bin\Debug\net6.0\BlogPostModel.deps.json
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\bin\Debug\net6.0\BlogPostModel.dll
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\bin\Debug\net6.0\BlogPostModel.pdb
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\obj\Debug\net6.0\BlogPostModel.csproj.AssemblyReference.cache
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\obj\Debug\net6.0\BlogPostModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\obj\Debug\net6.0\BlogPostModel.AssemblyInfoInputs.cache
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\obj\Debug\net6.0\BlogPostModel.AssemblyInfo.cs
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\obj\Debug\net6.0\BlogPostModel.csproj.CoreCompileInputs.cache
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\obj\Debug\net6.0\BlogPostModel.dll
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\obj\Debug\net6.0\refint\BlogPostModel.dll
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\obj\Debug\net6.0\BlogPostModel.pdb
+C:\Users\Bl society\Desktop\Work\Blog\Blog\BlogPostModel\obj\Debug\net6.0\ref\BlogPostModel.dll

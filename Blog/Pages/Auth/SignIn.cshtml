@@ -1,0 +1,29 @@
+﻿@page "/SignIn"
+@model Blog.Pages.Auth.SignInModel
+@{
+    ViewData["Title"] = "SignIn";
+}
+<!--Author:Prakash Bl Dhakal Date:2023/19/03-->
+<div class="container box-shadow  text-black">
+    <form method="post">
+        <div class="row p-1 m-2">
+            <div class="col-md-4">
+                <label for="Email">User Email</label>
+                <input type="text" class="form-control" id="Email" placeholder="Enter Email" asp-for="SignInDTO.UserEmail">
+                <span asp-validation-for="SignInDTO.UserEmail" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row p-1 m-2">
+            <div class="col-md-4">
+                <label for="Password">User Password</label>
+                <input type="text" class="form-control" id="Password" placeholder="Enter password" asp-for="SignInDTO.UserPassword">
+                <span asp-validation-for="SignInDTO.UserPassword" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row p-3 m-2">
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-success">Sign In</button>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> signInManager;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HEI</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Blog.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-4 p-3 ">
+            <div class="navbar-collapse d-flex">
+                <div class="text-left navbar-brand">
+                    Himalayan-Post
+                </div>
+                <div class="flex-grow-1"></div>
+                @if (signInManager.IsSignedIn(User))
+                {
+                    <div class="mx-4">
+                        <a class="btn btn-primary" href="/View/Index">
+                            <i class="bi bi-house-fill"></i> Blogs
+                        </a>
+                        <a class="btn border-info text-white mr-2" href="/Privacy">Policy</a>
+                        <a class="btn border-danger text-white bi-person-fill mr-2" href="/About">About HEI</a>
+
+                        <a class="btn btn-danger text-white bi-person-fill ml-2" href="/LogOut">Log Out</a>
+                    </div>
+                }
+                else
+                {
+                    <div class="justify-content-end">
+                        <a class="btn btn-outline-primary bi-person-plus border-success mr-2" href="/SignUp">Sign Up</a>
+                        <a class="btn btn-outline-success border-primary" href="/SignIn">Sign In</a>
+                    </div>
+                }
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container text-sm-center">
+            &copy; 2023 - Himalayan Everest Insurance
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
