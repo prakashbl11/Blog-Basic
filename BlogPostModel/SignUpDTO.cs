@@ -13,7 +13,7 @@ namespace BlogPostModel
         [Required(ErrorMessage = "Email Address is Required")]
         public string UserEmail { get; set; }
 
-        [Required(ErrorMessage = "Password is Required")]
+        [Required(ErrorMessage = "Choose a Strong Password(eg:Abcd@123)")]
         public string UserPassword { get; set; }
         public string ConfirmPassword { get; set; }
     }
