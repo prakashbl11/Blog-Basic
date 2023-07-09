@@ -32,7 +32,7 @@ namespace Blog.Pages.View
                 {
                     Title = BlogPostDTO.Title,
                     Content = BlogPostDTO.Content,
-                    Author = BlogPostDTO.Author
+                    Author = BlogPostDTO.Author,
 
                 };
                 await blogServices.AddPostsAsync(blogpost);

@@ -22,6 +22,39 @@ namespace BlogDBContext.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("BlogPostModel.Message", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Audience")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Body")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("Updated")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Messages");
+                });
+
             modelBuilder.Entity("BlogPostModel.PostContent", b =>
                 {
                     b.Property<Guid>("Id")
@@ -80,21 +113,21 @@ namespace BlogDBContext.Migrations
                         new
                         {
                             Id = "1",
-                            ConcurrencyStamp = "7a1befc8-acae-4465-8050-5aade658e9a7",
+                            ConcurrencyStamp = "b20ba417-c486-40ca-9b97-79cf79e38a2b",
                             Name = "Admin",
                             NormalizedName = "Admin"
                         },
                         new
                         {
                             Id = "2",
-                            ConcurrencyStamp = "8c56490c-8fb1-4d5a-9f42-7f20501eba1f",
+                            ConcurrencyStamp = "e211c584-0cb2-43d2-bd40-568439c75738",
                             Name = "User",
                             NormalizedName = "User"
                         },
                         new
                         {
                             Id = "3",
-                            ConcurrencyStamp = "35ca2b4d-571d-4ba9-96d1-15eff3c90569",
+                            ConcurrencyStamp = "415fa3d6-257f-4daf-b6e8-93baa3df4ab1",
                             Name = "HR",
                             NormalizedName = "HR"
                         });
@@ -193,14 +226,14 @@ namespace BlogDBContext.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d1307b2b-6951-4d48-9020-da6a6b321b40",
+                            ConcurrencyStamp = "3e3cad66-0a27-4944-baf9-614e3b7e7dd9",
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = true,
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBEHw7kLwy3R2awVLa3DjuLk5AZ8ZO3Wlp3NDOYv8PtolPY0Sq4rz20fNyCcULRr+Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEvbmCGgeoMF75e7Tu73RVszxeL0aiJVzPFCkoZsY0mxESP7Xa+j/DPiQ3g3VbhkDw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c516628a-2145-4948-97ff-8fa6d84eee9d",
+                            SecurityStamp = "e171f1e2-bd3f-40e5-9cb7-ad569fbd6930",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         },
@@ -208,14 +241,14 @@ namespace BlogDBContext.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5cca9451-7989-4253-8f40-0291893d0ecd",
+                            ConcurrencyStamp = "ec83674f-3534-48d8-b638-2a98392fe5f8",
                             Email = "user@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = true,
                             NormalizedUserName = "USER@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAmRS/UGbLKHl9ZFU6fgruf2DCMI/VAnTLjkXpFl2ptNYadZxQ9sKOdGDySGr2+iZA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELdP+psUPr2Y1AMY/gNB1X326IaOmTMyRhQEltjJhJxSkEN87Il+8YXEmSDoCcI4EA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "20021436-92c6-4248-a584-b6de3c1abf1b",
+                            SecurityStamp = "3c6674af-dfa7-4b70-9924-06fb4f681d2a",
                             TwoFactorEnabled = false,
                             UserName = "user@gmail.com"
                         },
@@ -223,14 +256,14 @@ namespace BlogDBContext.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ed632cd7-d6d3-4457-8e9d-5f7a7c437ce9",
+                            ConcurrencyStamp = "e1d4e372-d167-4781-99eb-06c7448855e0",
                             Email = "hr@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = true,
                             NormalizedUserName = "HR@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEByZvdL+t/MD2XOUDMn3ZS0gUk/iyiY/GeoPB4Umfak1JDnQ6ugNDSSiUJdDuZPKgA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAuYv9qBOwWOVkU1NZtzlsDy9cOCD2zAXTo1n+4V/HVtdjQuQ0OHDNqIjTJD0f17mQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "27b20217-5978-4faa-9f0e-cd4a812abadc",
+                            SecurityStamp = "4adee312-c64d-4cdf-a5a6-530d678bd775",
                             TwoFactorEnabled = false,
                             UserName = "hr@gmail.com"
                         });

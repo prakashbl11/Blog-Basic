@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4QxfYMpHyqXmpzdlapBfJJQgB/Q8vgFDJgAOnxkKtxFM0j933G8zH7LUczbvPgc24ebpymYrXy/+2KmshyZfyw==",
+  "dgSpecHash": "d17HkUrdtNZcU1u9umZJcTJe+xDvKlWAd1CD8OrYHqsIdIbb6M2zS4GHFMQFpS4quOW7WMDdWVP4rNGU+MYBDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj",
+  "projectFilePath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bl society\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Bl society\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.15\\microsoft.aspnetcore.cryptography.internal.6.0.15.nupkg.sha512",

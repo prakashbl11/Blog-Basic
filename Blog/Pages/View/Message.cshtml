@@ -1,0 +1,115 @@
+﻿@page 
+@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> signInManager;
+@inject UserManager<IdentityUser> userManager
+@model Blog.Pages.View.MessageModel
+@{
+}
+@if (signInManager.IsSignedIn(User))
+{
+    var user = await userManager.GetUserAsync(User);
+    var role = await userManager.GetRolesAsync(user);
+    @if (role.Contains("Admin"))
+    {
+        <div class="container m-4">
+            <button type="button" class="btn btn-outline-success" id="writeMessageBtn"><i class="bi bi-envelope"></i>Write Message</button>
+        </div>
+        <div class="container mt-4 bg-light" id="messageContainer" style="display: none;">
+            <form method="post">
+                @*<div class="col-md-4">
+                    <input type="hidden" asp-for="messages.Id" hidden />
+                </div>*@
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="title">Subject</label>
+                        <input type="text" class="form-control" id="title" asp-for="messages.Subject" />
+                    </div>
+                </div>
+                
+                <div class="row my-3">
+                    <div class="col-md-8">
+                        <label for="content">Message</label>
+                        <textarea class="form-control" id="content" asp-for="messages.Body" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                   
+                    <div class="col-md-4">
+                        <label for="author">Sender</label>
+                        <input type="text" class="form-control" asp-for="messages.Author" id="author" />
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <label for="audience">Audience</label>
+                        <select class="form-control" asp-for="messages.Audience" id="audience">
+                            <option value="All">All</option>
+                            <option value="HR">HR</option>
+                            <option value="IT">IT</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <button type="submit" class="btn btn-outline-primary">Send</button>
+                    <button type="reset" class="btn btn-outline-danger" id="cancelButton">Cancel</button>
+                </div>
+            </form>
+        </div>
+    }
+}
+<div class="container">
+ @if (Model.AllMessages != null && Model.AllMessages.Any())
+{
+    <div class="blog-posts">
+        @foreach (var post in Model.AllMessages)
+        {
+            <div class="blog-post mt-2">
+                    <div style ="display: flex; align-items: center;">
+                        <h3 class="post-title" style="flex: 1;">@post.Subject</h3>
+                        <button style="margin-left: auto;" class="btn btn-outline-success more-btn">Read more</button>
+                    </div>
+                    <div class="more-section" style="display: none;">
+                <p class="post-content">@post.Body</p>
+                <div class="post-author">Sender: @post.Author</div>
+                <div class="comment-box p-2">
+                    <textarea class="form-control" rows="1" placeholder="Write a Reply"></textarea>
+                    <button type="button" class="btn border-secondary  my-1 p-2">Reply</button>
+                </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div clsss="container">
+        <p class="text-danger">No Messages are sent to you till now.</p>
+    </div>
+}
+</div>
+<script>
+    document.getElementById("writeMessageBtn").addEventListener("click", function () {
+        var container = document.getElementById("messageContainer");
+        if (container.style.display === "none") {
+            container.style.display = "block";
+        } else {
+            container.style.display = "none";
+        }
+    });
+    document.getElementById("cancelButton").addEventListener("click", function () {
+        var form = document.getElementById("messageContainer");
+        form.style.display = "none";
+    });
+    var moreButtons = document.getElementsByClassName("more-btn");
+
+    Array.from(moreButtons).forEach(function (button) {
+        button.addEventListener("click", function () {
+            var moreSection = this.parentNode.nextElementSibling;
+            if (moreSection.style.display === "none") {
+                moreSection.style.display = "block";
+            } else {
+                moreSection.style.display = "none";
+            }
+        });
+    });
+</script>

@@ -1,6 +1,7 @@
 
 
 using BlogPostModel;
+using BlogPostServices;
 using BlogRepository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -15,8 +16,8 @@ namespace Blog.Pages.View
         public IEnumerable<PostContent> AllPosts { get; set; }
 
 
-        private readonly IBlogPostRepository blogPostRepository;
-        public IndexModel(IBlogPostRepository blogPostRepository)
+        private readonly IBlogServices blogPostRepository;
+        public IndexModel(IBlogServices blogPostRepository)
         {
             this.blogPostRepository = blogPostRepository;
         }

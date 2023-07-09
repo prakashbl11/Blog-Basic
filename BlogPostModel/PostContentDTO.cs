@@ -10,14 +10,14 @@ namespace BlogPostModel
     public class PostContentDTO
     {
 
-
         [Required(ErrorMessage = "Please enter a title.")]
         public string Title { get; set; }
 
-        [Required(ErrorMessage = "Please enter the content.")]
+        [Required(ErrorMessage = "Please Write the content.")]
         public string Content { get; set; }
 
         [Required(ErrorMessage = "Please enter the author name.")]
         public string Author { get; set; }
+
     }
 }

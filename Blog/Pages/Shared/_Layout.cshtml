@@ -1,5 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Identity;
 @inject SignInManager<IdentityUser> signInManager;
+@inject UserManager<IdentityUser> userManager
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,6 +29,11 @@
                         <a class="btn btn-primary" href="/View/Index">
                             <i class="bi bi-house-fill"></i> Blogs
                         </a>
+
+                        <a class="btn btn-primary" href="/View/Message">
+                            <i class="bi bi-bell"></i> Notification
+                        </a>
+
                         <a class="btn border-info text-white mr-2" href="/Privacy">Policy</a>
                         <a class="btn border-danger text-white bi-person-fill mr-2" href="/About">About HEI</a>
 

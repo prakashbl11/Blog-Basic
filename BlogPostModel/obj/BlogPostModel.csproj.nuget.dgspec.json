@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {}
+    "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {
+    "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj",
+        "projectUniqueName": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj",
         "projectName": "BlogPostModel",
-        "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj",
+        "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj",
         "packagesPath": "C:\\Users\\Bl society\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\obj\\",
+        "outputPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bl society\\AppData\\Roaming\\NuGet\\NuGet.Config",

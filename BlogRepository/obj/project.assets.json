@@ -5548,11 +5548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogRepository\\BlogRepository.csproj",
+      "projectUniqueName": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogRepository\\BlogRepository.csproj",
       "projectName": "BlogRepository",
-      "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogRepository\\BlogRepository.csproj",
+      "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogRepository\\BlogRepository.csproj",
       "packagesPath": "C:\\Users\\Bl society\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogRepository\\obj\\",
+      "outputPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bl society\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5569,11 +5569,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj": {
-              "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj"
+            "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj": {
+              "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj"
             },
-            "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {
-              "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj"
+            "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {
+              "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj"
             }
           }
         }

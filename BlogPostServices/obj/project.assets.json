@@ -5567,11 +5567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostServices\\BlogPostServices.csproj",
+      "projectUniqueName": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostServices\\BlogPostServices.csproj",
       "projectName": "BlogPostServices",
-      "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostServices\\BlogPostServices.csproj",
+      "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostServices\\BlogPostServices.csproj",
       "packagesPath": "C:\\Users\\Bl society\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostServices\\obj\\",
+      "outputPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bl society\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5588,11 +5588,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {
-              "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj"
+            "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {
+              "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj"
             },
-            "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogRepository\\BlogRepository.csproj": {
-              "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogRepository\\BlogRepository.csproj"
+            "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogRepository\\BlogRepository.csproj": {
+              "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogRepository\\BlogRepository.csproj"
             }
           }
         }

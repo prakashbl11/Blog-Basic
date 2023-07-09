@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Wih1fFKpkM8Z/ooePxaLDnQxcyWCJYXzPkxZgiqZ4tOPUeGJRn5vJ3lF2bRHjXdwwc5YNrO4goi8YPOsDFeoQ==",
+  "dgSpecHash": "fZJ7c/pqTmLf1LCZh1W8cI1iHjHtzVJyEPE2oFlSeDPqdhReVhNskykSEqR9oTwOi4CMP+yMDpugoL+KdmibUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\Blog\\Blog.csproj",
+  "projectFilePath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bl society\\.nuget\\packages\\bootstrap\\5.2.3\\bootstrap.5.2.3.nupkg.sha512",
     "C:\\Users\\Bl society\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

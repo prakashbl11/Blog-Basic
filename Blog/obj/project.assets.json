@@ -6274,11 +6274,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\Blog\\Blog.csproj",
+      "projectUniqueName": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\Blog\\Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\Blog\\Blog.csproj",
+      "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\Blog\\Blog.csproj",
       "packagesPath": "C:\\Users\\Bl society\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\Blog\\obj\\",
+      "outputPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\Blog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bl society\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6295,14 +6295,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj": {
-              "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj"
+            "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj": {
+              "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogDBContext\\BlogDBContext.csproj"
             },
-            "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {
-              "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj"
+            "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj": {
+              "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostModel\\BlogPostModel.csproj"
             },
-            "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostServices\\BlogPostServices.csproj": {
-              "projectPath": "C:\\Users\\Bl society\\Desktop\\Work\\Blog\\Blog\\BlogPostServices\\BlogPostServices.csproj"
+            "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostServices\\BlogPostServices.csproj": {
+              "projectPath": "C:\\Users\\Bl society\\Desktop\\HEI\\Blog\\Blog\\BlogPostServices\\BlogPostServices.csproj"
             }
           }
         }

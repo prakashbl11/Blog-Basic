@@ -21,6 +21,7 @@
                 <span asp-validation-for="BlogPostDTO.Content" class="text-danger"></span>
             </div>
         </div>
+       
         <div class="row mt-5">
             <div class="col-md-4">
                 <label for="author">Author</label>
@@ -38,5 +39,18 @@
 </div>
 
 @section Scripts {
+    <script src="~/ckeditor/ckeditor.js"></script>  
+    <script>
+$(document).ready(function()
+{
+            CKEDITOR.replace('BlogPostDTO.Content', {
+                height: 300, 
+                width: 700
+
+    })
+
+})
+
+    </script>
     <partial name="_ValidationScriptsPartial" />
 }

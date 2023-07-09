@@ -9,65 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Blog
 build_property.RootNamespace = Blog
-build_property.ProjectDir = C:\Users\Bl society\Desktop\Work\Blog\Blog\Blog\
+build_property.ProjectDir = C:\Users\Bl society\Desktop\HEI\Blog\Blog\Blog\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Bl society\Desktop\Work\Blog\Blog\Blog
+build_property.MSBuildProjectDirectory = C:\Users\Bl society\Desktop\HEI\Blog\Blog\Blog
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/About.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/Auth/LogOut.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/Auth/LogOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/Auth/SignIn.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/Auth/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/Auth/SignUp.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/Auth/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/Error.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/Privacy.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/View/HomePage.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/View/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xIb21lUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/View/Index.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/View/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/View/ManagePost.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/View/ManagePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xNYW5hZ2VQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/View/Post.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/View/Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/View/Post.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/_ViewImports.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/_ViewStart.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bl society/Desktop/Work/Blog/Blog/Blog/Pages/Shared/_Layout.cshtml]
+[C:/Users/Bl society/Desktop/HEI/Blog/Blog/Blog/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-paiqi6knjt

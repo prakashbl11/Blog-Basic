@@ -13,7 +13,6 @@ namespace BlogDBContext
         public BlogDbContext(DbContextOptions options) : base(options)
         {
         }
-        //User and their role seeded here.it will update datebase during migration automatically.
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -48,5 +47,6 @@ namespace BlogDBContext
 );
         }
         public DbSet<PostContent> PostContents { get; set; }
+        public DbSet<Message> Messages { get; set; }    
     }
 }
